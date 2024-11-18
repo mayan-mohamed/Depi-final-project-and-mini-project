@@ -1,0 +1,51 @@
+Customer_ID,Feedback_ID,Feedback_Date,Customer_Age,Customer_Gender,Product_ID,Feedback_Type,Feedback_Text,Rating,Response_Time,Resolution_Status,Improvement_Suggested,Follow_Up,Follow_Up_Date,Action_Taken
+CUST001,FDBK001,2024-09-29 01:27:44.223664,65,Female,P010,Complaint,Love the new features!,4,48,Pending,Add more payment options,No,N/A,Discussed in team huddle
+CUST002,FDBK002,2024-09-01 01:27:44.223683,53,Male,P007,Praise,Fast delivery and great packaging.,2,22,Resolved,Offer bulk discounts,Yes,N/A,Shared feedback with team
+CUST003,FDBK003,2024-09-28 01:27:44.223686,56,Male,P007,Suggestion,Had issues with the installation.,2,35,Resolved,More flavors needed,Yes,N/A,Under review for next season
+CUST004,FDBK004,2024-09-07 01:27:44.223688,61,Male,P006,Praise,Please improve your website interface.,2,23,Resolved,Offer bulk discounts,No,2024-09-03 01:27:44.224076,Discussed in team huddle
+CUST005,FDBK005,2024-09-10 01:27:44.223690,26,Male,P007,Suggestion,"Amazing taste, will buy again.",3,15,Resolved,Improve packaging,Yes,N/A,Discussed in team huddle
+CUST006,FDBK006,2024-09-26 01:27:44.223693,51,Male,P006,Praise,I would like to see more flavors.,1,3,Pending,Improve packaging,No,2024-09-03 01:27:44.224080,No action taken yet
+CUST007,FDBK007,2024-09-16 01:27:44.223695,31,Male,P002,Praise,The quality is not what I expected.,5,9,Resolved,More flavors needed,No,2024-09-29 01:27:44.224083,Scheduled for next meeting
+CUST008,FDBK008,2024-09-20 01:27:44.223697,27,Female,P001,Complaint,Love the new features!,4,46,Pending,Provide better warranty info,Yes,N/A,Under review for next season
+CUST009,FDBK009,2024-09-07 01:27:44.223705,49,Female,P006,Praise,Fast delivery and great packaging.,2,20,Resolved,Provide detailed product information,Yes,2024-09-25 01:27:44.224086,Under review for next season
+CUST010,FDBK010,2024-09-26 01:27:44.223708,50,Female,P009,Suggestion,The quality is not what I expected.,3,5,Pending,Improve packaging,Yes,N/A,Sent a follow-up email
+CUST011,FDBK011,2024-09-09 01:27:44.223709,47,Male,P008,Praise,Had issues with the installation.,5,3,Pending,Offer bulk discounts,Yes,2024-09-12 01:27:44.224089,Feedback noted for future consideration
+CUST012,FDBK012,2024-09-20 01:27:44.223711,48,Male,P005,Praise,I would like to see more flavors.,2,35,Resolved,Keep up the good work!,Yes,N/A,Scheduled for next meeting
+CUST013,FDBK013,2024-09-18 01:27:44.223713,40,Female,P006,Praise,Very helpful support team.,1,43,Resolved,Add more payment options,No,2024-09-08 01:27:44.224092,Shared feedback with team
+CUST014,FDBK014,2024-09-13 01:27:44.223714,45,Male,P008,Praise,The product stopped working.,4,36,Pending,Increase product availability,No,N/A,Shared feedback with team
+CUST015,FDBK015,2024-09-27 01:27:44.223715,53,Female,P003,Complaint,Love the new features!,1,19,Resolved,Improve packaging,Yes,N/A,Developing new marketing strategy
+CUST016,FDBK016,2024-09-17 01:27:44.223717,48,Female,P006,Suggestion,I would like to see more flavors.,1,32,Resolved,More flavors needed,Yes,N/A,No action taken yet
+CUST017,FDBK017,2024-09-13 01:27:44.223718,65,Male,P010,Praise,Love the new features!,3,23,Pending,Enhance user experience on the app,No,N/A,Issued refund and warranty
+CUST018,FDBK018,2024-09-16 01:27:44.223720,27,Female,P009,Praise,Love the new features!,5,18,Pending,Provide better warranty info,Yes,2024-09-16 01:27:44.224096,Shared feedback with team
+CUST019,FDBK019,2024-09-08 01:27:44.223722,38,Male,P002,Complaint,The quality is not what I expected.,4,28,Resolved,Provide better warranty info,Yes,2024-09-22 01:27:44.224098,Scheduled for next meeting
+CUST020,FDBK020,2024-09-10 01:27:44.223723,41,Male,P007,Complaint,Very helpful support team.,5,5,Pending,More flavors needed,No,N/A,Developing new marketing strategy
+CUST021,FDBK021,2024-09-08 01:27:44.223725,35,Male,P004,Complaint,The quality is not what I expected.,3,36,Resolved,Offer bulk discounts,No,2024-09-22 01:27:44.224100,Sent a follow-up email
+CUST022,FDBK022,2024-09-16 01:27:44.223726,28,Female,P002,Suggestion,I would like to see more flavors.,2,5,Resolved,More flavors needed,Yes,2024-09-06 01:27:44.224102,Feedback noted for future consideration
+CUST023,FDBK023,2024-09-04 01:27:44.223728,22,Male,P002,Suggestion,Love the new features!,1,22,Resolved,Provide detailed product information,No,N/A,Feedback noted for future consideration
+CUST024,FDBK024,2024-09-01 01:27:44.223729,47,Female,P002,Suggestion,Excellent customer service!,5,7,Resolved,Offer bulk discounts,Yes,N/A,Implemented suggested changes
+CUST025,FDBK025,2024-09-20 01:27:44.223731,34,Female,P008,Complaint,Fast delivery and great packaging.,5,20,Pending,Provide detailed product information,No,N/A,Scheduled for next meeting
+CUST026,FDBK026,2024-09-13 01:27:44.223732,61,Female,P010,Complaint,Very helpful support team.,4,46,Resolved,Enhance user experience on the app,No,N/A,Under review for next season
+CUST027,FDBK027,2024-09-28 01:27:44.223734,48,Male,P005,Suggestion,Very helpful support team.,3,7,Pending,Enhance user experience on the app,Yes,N/A,Sent a follow-up email
+CUST028,FDBK028,2024-09-17 01:27:44.223735,40,Female,P007,Praise,Excellent customer service!,2,31,Resolved,Improve packaging,Yes,2024-09-06 01:27:44.224106,Issued refund and warranty
+CUST029,FDBK029,2024-09-15 01:27:44.223737,58,Male,P004,Complaint,The quality is not what I expected.,5,47,Resolved,Enhance user experience on the app,Yes,N/A,Implemented suggested changes
+CUST030,FDBK030,2024-09-26 01:27:44.223738,54,Male,P008,Praise,The quality is not what I expected.,5,47,Resolved,Provide detailed product information,No,2024-09-13 01:27:44.224108,Issued refund and warranty
+CUST031,FDBK031,2024-09-05 01:27:44.223739,42,Female,P004,Suggestion,Excellent customer service!,1,32,Pending,Add more payment options,No,N/A,Discussed in team huddle
+CUST032,FDBK032,2024-08-31 01:27:44.223741,37,Female,P003,Suggestion,Fast delivery and great packaging.,1,7,Resolved,Offer bulk discounts,No,N/A,Issued refund and warranty
+CUST033,FDBK033,2024-09-24 01:27:44.223742,52,Male,P007,Suggestion,Had issues with the installation.,1,35,Resolved,Provide detailed product information,No,N/A,Implemented suggested changes
+CUST034,FDBK034,2024-09-23 01:27:44.223744,31,Female,P005,Praise,Fast delivery and great packaging.,4,4,Pending,More flavors needed,No,2024-09-16 01:27:44.224111,Issued refund and warranty
+CUST035,FDBK035,2024-09-02 01:27:44.223745,46,Female,P008,Complaint,I would like to see more flavors.,1,36,Resolved,Provide detailed product information,No,N/A,No action taken yet
+CUST036,FDBK036,2024-09-23 01:27:44.223747,48,Male,P001,Suggestion,"Amazing taste, will buy again.",3,17,Pending,Keep up the good work!,Yes,2024-09-29 01:27:44.224114,Scheduled for next meeting
+CUST037,FDBK037,2024-09-25 01:27:44.223748,61,Female,P008,Complaint,Fast delivery and great packaging.,4,27,Resolved,Keep up the good work!,No,2024-09-02 01:27:44.224116,Sent a follow-up email
+CUST038,FDBK038,2024-09-28 01:27:44.223750,64,Male,P003,Praise,Love the new features!,3,44,Resolved,Introduce seasonal flavors,Yes,2024-09-14 01:27:44.224118,Under review for next season
+CUST039,FDBK039,2024-09-08 01:27:44.223751,28,Male,P002,Complaint,Fast delivery and great packaging.,5,38,Pending,Provide better warranty info,Yes,N/A,Developing new marketing strategy
+CUST040,FDBK040,2024-09-07 01:27:44.223753,20,Female,P001,Praise,"Amazing taste, will buy again.",1,6,Resolved,Increase product availability,No,N/A,No action taken yet
+CUST041,FDBK041,2024-09-11 01:27:44.223754,58,Female,P010,Suggestion,Excellent customer service!,4,37,Pending,Provide better warranty info,No,N/A,Discussed in team huddle
+CUST042,FDBK042,2024-09-06 01:27:44.223756,36,Male,P007,Complaint,Very helpful support team.,4,39,Pending,More flavors needed,No,N/A,Discussed in team huddle
+CUST043,FDBK043,2024-09-29 01:27:44.223757,63,Male,P010,Complaint,I would like to see more flavors.,5,7,Pending,Provide better warranty info,Yes,2024-09-03 01:27:44.224121,Issued refund and warranty
+CUST044,FDBK044,2024-09-10 01:27:44.223758,47,Male,P009,Praise,Love the new features!,2,24,Resolved,Improve packaging,Yes,2024-09-04 01:27:44.224123,Sent a follow-up email
+CUST045,FDBK045,2024-09-20 01:27:44.223760,20,Male,P004,Complaint,The product stopped working.,2,2,Pending,Introduce seasonal flavors,No,N/A,Developing new marketing strategy
+CUST046,FDBK046,2024-09-10 01:27:44.223762,54,Female,P002,Praise,Very helpful support team.,1,41,Pending,Provide detailed product information,No,2024-09-07 01:27:44.224125,Scheduled for next meeting
+CUST047,FDBK047,2024-09-18 01:27:44.223763,59,Female,P001,Praise,Love the new features!,3,40,Resolved,Improve packaging,No,N/A,Implemented suggested changes
+CUST048,FDBK048,2024-09-26 01:27:44.223765,22,Female,P008,Complaint,"Amazing taste, will buy again.",1,32,Pending,Add more payment options,No,N/A,Feedback noted for future consideration
+CUST049,FDBK049,2024-09-18 01:27:44.223766,61,Male,P005,Praise,Love the new features!,1,2,Resolved,Offer bulk discounts,Yes,2024-09-12 01:27:44.224128,Issued refund and warranty
+CUST050,FDBK050,2024-09-23 01:27:44.223768,43,Female,P001,Suggestion,Excellent customer service!,2,25,Resolved,Provide better warranty info,No,2024-09-27 01:27:44.224130,Discussed in team huddle
