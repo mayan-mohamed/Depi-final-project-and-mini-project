@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ book.title }} - Your Online Library</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Your Online Library</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'welcome' %}">Home</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'register' %}">Register</a></li>
+                <li><a href="{% url 'book_list' %}">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="book-detail-container">
+            <div class="book-detail-header">
+                <img src="{% static 'app/covers/' %}{{ book.bookId }}.jpeg" alt="{{ book.title }} Cover" class="book-detail-cover">
+                <div class="book-detail-info">
+                    <h2>{{ book.title }}</h2>
+                    <h3>By:
+                        {% for author in authors %}
+                            {{  author.authorId.name }}{% if not forloop.last %}, {% endif %}
+                        {% endfor %}
+                    </h3>
+                    <p><strong>Category:</strong>  {% for category in categories %}
+                        {{ category.catId.catName }}{% if not forloop.last %}, {% endif %}
+                    {% endfor %}
+                    <p><strong>Price:</strong> ${{ book.price }}</p>
+                    <p><strong>Language:</strong> {{ book.language }}</p>
+                    <p><strong>Format:</strong> {{ book.fileFormat }}</p>
+                    <p><strong>Size:</strong> {{ book.fileSize }} MB</p>
+                    <a href="{% url 'buy_book' book.bookId %}" class="btn btn-success">Buy Now</a>
+                </div>
+            </div>
+            <a href="{% url 'book_list' %}" class="btn btn-primary">Back to Book List</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Online Library</p>
+    </footer>
+</body>
+</html>

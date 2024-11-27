@@ -1,0 +1,10 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="home-container">
+    <h1>Welcome to Your Online Library</h1>
+    <p>Your gateway to a world of digital books right at the comfort of your home.</p>
+    <a href="{% url 'book_list' %}" class="btn btn-primary">Explore Books</a>
+</div>
+{% endblock %}

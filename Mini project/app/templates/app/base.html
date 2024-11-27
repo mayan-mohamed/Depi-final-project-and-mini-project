@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Online Library</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Your Online Library</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'welcome' %}">Home</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'register' %}">Register</a></li>
+                <li><a href="{% url 'book_list' %}">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Online Library</p>
+        <!-- New "About Us" section -->
+        <div class="about-us">
+            <strong>About Us</strong>
+            <p>Your online library is an online library that allows you to purchase authentic digital copies of your favorite books.</p>
+        </div>
+    </footer>
+</body>
+</html>

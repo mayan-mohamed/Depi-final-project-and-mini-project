@@ -1,0 +1,20 @@
+{% extends 'app/base.html' %}
+{% load custom_filters %}
+{% load static %}
+{% block content %}
+    <h2>Buy {{ book.title }}</h2>
+    <p>Price: ${{ book.price }}</p>
+    
+    <form action="{% url 'process_payment' book.bookId %}" method="post">
+        {% csrf_token %}
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="{{ stripe_publishable_key }}"
+                data-amount="{{ price_in_cents }}"
+                data-name="{{ book.title }}"
+                data-description="Purchase of {{ book.title }}"
+                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                data-locale="auto"
+                data-currency="usd">
+        </script>
+    </form>
+{% endblock %}

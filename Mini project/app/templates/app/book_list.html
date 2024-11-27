@@ -1,0 +1,22 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <h2>Book List</h2>
+    <form method="GET" action="{% url 'search_books' %}" class="search-form">
+        <input type="text" name="q" placeholder="Search for books...">
+        <button type="submit">Search</button>
+    </form>
+    <div class="book-grid">
+        {% for book in books %}
+        <div class="book-item">
+            <img src="{% static 'app/covers/' %}{{ book.bookId }}.jpeg" alt="{{ book.title }} Cover" class="book-cover" onerror="handleImageError(this)">
+            <h3>{{ book.title }}</h3>
+            <a href="{% url 'book_detail' book.bookId %}" class="btn btn-primary">View Book Details</a>
+            <a href="{% url 'buy_book' book.bookId %}" class="btn btn-success">Buy</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
